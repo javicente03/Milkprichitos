@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position-y: 70px;
+    background-attachment: fixed;
+}
+
+.navcolor{
+    background: linear-gradient(90deg, #ec407a 25%, #d1094c 100%);
+}
+
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedor-nav{
+    margin: 0 40px;
+}
+
+.cont-login{
+    width: 50%;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 10px;
+}
+
+@media (max-width:450px) {
+    .texto-logo{
+        font-size: 1.5em !important;
+    }
+}
+
+form >.input-field>input, .btn{
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.cont-crear{
+    background-color: rgb(247, 247, 247);
+    box-shadow: 3px 3px 4px black;
+    padding: 10px;
+}
+
+.enlace{
+    font-weight: bold;
+    padding: 5px;
+    color: black;
+}
+
+.texto-logo{
+    font-family: cursive;
+    font-weight: bold;
+    text-shadow: black 1px 1px 2px;
+}
+
+p>label>span{
+    font-family: cursive;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+@media (max-width:600px) {
+    .cont-login{
+        width: 100%;
+    }
+}
+
+.table-head{
+    background: linear-gradient(90deg, rgb(247, 55, 253) 25%, rgb(241, 5, 202) 100%);
+    color: white;
+}
+
+.title{
+    font-weight: bold;
+    margin-bottom: -50px;
+}
+
+@media (max-width:670px) {
+    .title-table{
+        margin-bottom: 0;
+    }
+}
+
+
+/* DATATABLE */
+
+#tabla_filter > label > input{
+    height: 30px;
+    width: 80%;
+}
+
+#tabla_length{
+    display: none;
+}
+
+.scroll-td{
+    overflow: scroll;
+    max-width: 100%;
+    max-height: 150px;
+}
+
+.scroll-notify::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+.scroll-td::-webkit-scrollbar:horizontal{
+    display: none;
+}
