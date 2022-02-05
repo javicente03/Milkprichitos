@@ -25,14 +25,12 @@ else {
 </head>
 
 <body>
-    <div class="navbar-fixed">
+<div class="navbar-fixed">
         <nav>
             <div class="nav-wrapper navcolor fixed">
-                <div class="container">
-                    <div class="contenedor-nav">
                         <a href="login" class="brand-logo texto-logo">Mil K'prichitos</a>
 
-                    </div>
+                
 
                     <ul class="right hide-on-med-and-down">
                         <li><a href="nuevo_pedido.php">Nuevo Pedido</a></li>
@@ -42,7 +40,6 @@ else {
                         <li><a href="pedidos_entregados.php">Pedidos Entregados</a></li>
                         <li><a href="logica/logout.php">Salir</a></li>
                     </ul>
-                </div>
             </div>
         </nav>
     </div>
@@ -67,7 +64,7 @@ else {
                                     <td><?php echo $p["fecha_realizado"] ?></td>
                                     <td><?php echo $p["fecha_entrega"] ?></td>
                                     <td><?php echo $p["costo_total"] ?></td>
-                                    <td><a class="btn btn-flat" href="revisar_pedido.php?p=<?php echo $p["id_pedido"] ?>"><i class="material-icons">visibility</i></a></td>
+                                    <td><a class="btn btn-flat" href="revisar_pedido.php?p=<?php echo$p["id_pedido"] ?>"><i class="material-icons">visibility</i></a></td>
                                 </tr>
                             <?php } ?>
                         </tbody>

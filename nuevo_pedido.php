@@ -26,11 +26,9 @@ else {
     <div class="navbar-fixed">
         <nav>
             <div class="nav-wrapper navcolor fixed">
-                <div class="container">
-                    <div class="contenedor-nav">
                         <a href="login" class="brand-logo texto-logo">Mil K'prichitos</a>
 
-                    </div>
+                
 
                     <ul class="right hide-on-med-and-down">
                         <li><a href="nuevo_pedido.php">Nuevo Pedido</a></li>
@@ -40,7 +38,6 @@ else {
                         <li><a href="pedidos_entregados.php">Pedidos Entregados</a></li>
                         <li><a href="logica/logout.php">Salir</a></li>
                     </ul>
-                </div>
             </div>
         </nav>
     </div>
